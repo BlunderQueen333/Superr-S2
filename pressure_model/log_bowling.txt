@@ -1,0 +1,36 @@
+players with strict-pressure sample (balls>=a, innings>=b): {(40, 6): 171, (40, 8): 135, (40, 10): 122, (40, 15): 67, (60, 6): 168, (60, 8): 135, (60, 10): 122, (60, 15): 67, (80, 6): 151, (80, 8): 134, (80, 10): 122, (80, 15): 67, (100, 6): 129, (100, 8): 127, (100, 10): 122, (100, 15): 67, (150, 6): 83, (150, 8): 83, (150, 10): 83, (150, 15): 66}
+tau (population signal sd): {'runs': np.float64(0.041), 'win_cl': np.float64(0.0), 'qwk': np.float64(0.0), 'creation': np.float64(0.0003), 'delta': np.float64(0.0), 'hit': np.float64(0.0663), 'floor': np.float64(0.0), 'bounce': np.float64(0.0), 'closing': np.float64(0.0)}
+eligible 134 | low-confidence among eligible 24
+STRICT component repeat   {'runs': np.float64(0.19), 'win_cl': np.float64(0.0), 'qwk': np.float64(0.0), 'creation': np.float64(0.0), 'delta': np.float64(0.01), 'hit': np.float64(0.13), 'floor': np.float64(0.0), 'bounce': np.float64(0.0), 'closing': np.float64(0.0)}
+STRICT component validity {'runs': np.float64(0.17), 'win_cl': np.float64(0.0), 'qwk': np.float64(0.0), 'creation': np.float64(0.0), 'delta': np.float64(0.05), 'hit': np.float64(0.12), 'floor': np.float64(0.0), 'bounce': np.float64(0.0), 'closing': np.float64(0.0)}
+STRICT composite {'composite (final weights)': 0.171, 'equal weights over the 9 metrics': 0.171, 'Level metrics only': 0.17, 'final weights without Delta': 0.172, 'composite split-half repeatability': 0.2} {'2022-23 → 2024-26': {'composite': 0.196, 'Level only': 0.0, 'n': 109}, '2024-26 → 2022-23': {'composite': 0.216, 'Level only': 0.213, 'n': 109}}
+BROAD  component repeat   {'runs': np.float64(0.15), 'win_cl': np.float64(0.0), 'qwk': np.float64(0.0), 'creation': np.float64(0.0), 'delta': np.float64(-0.01), 'hit': np.float64(0.08), 'floor': np.float64(0.0), 'bounce': np.float64(0.0), 'closing': np.float64(0.0)}
+BROAD  component validity {'runs': np.float64(0.13), 'win_cl': np.float64(0.0), 'qwk': np.float64(0.0), 'creation': np.float64(0.0), 'delta': np.float64(0.04), 'hit': np.float64(0.08), 'floor': np.float64(0.0), 'bounce': np.float64(0.0), 'closing': np.float64(0.0)}
+BROAD  composite {'composite (final weights)': 0.142, 'equal weights over the 9 metrics': 0.141, 'Level metrics only': 0.134, 'final weights without Delta': 0.142, 'composite split-half repeatability': 0.157} {'2022-23 → 2024-26': {'composite': 0.064, 'Level only': 0.0, 'n': 138}, '2024-26 → 2022-23': {'composite': 0.219, 'Level only': 0.219, 'n': 138}}
+stress: mean P(top10) of final 10 = 0.617 | players with P(top10)>=0.5: 5 | >=0.8: 2
+sensitivity overlap with final top 10: {'Role-standardised (score centred within batting slot / bowling role)': (9, 134), 'Strict tier only (~17% of balls)': (10, 134), 'Broad tier only (v3 definition, ~33% of balls)': (9, 134), 'No match-importance weighting': (9, 134), 'No recency weighting': (10, 134), 'Equal weights over the 9 metrics': (9, 134), 'Level metrics only (no Delta / Reliability / extras)': (10, 134), 'Without Delta': (10, 134), 'Without Relief and Tail extras': (10, 134), 'IPL matches only': (7, 104), 'T20I / other matches only': (2, 114)}
+ROLE AUDIT {'Powerplay bowler (overs 1–6)': {'eligible': 38, 'mean_z': -0.17, 'in_top10': 1, 'in_top30': 4}, 'Middle-overs bowler (7–15)': {'eligible': 54, 'mean_z': -0.12, 'in_top10': 2, 'in_top30': 9}, 'Death bowler (16–20)': {'eligible': 42, 'mean_z': 0.31, 'in_top10': 7, 'in_top30': 17}}
+views built: 45 | rows in 2026 / all: 82 140
+
+FINAL bowl
+1 Jasprit Bumrah | Death bow | score 84.9 | P10 0.998 | med 1.0 [1-4] | pn 556 pinn 43 | blocks [1.63, 0.01, 0.06, 0.21, 0.0] 
+2 Nathan Ellis | Death bow | score 71.5 | P10 0.858 | med 4.0 [1-16] | pn 346 pinn 24 | blocks [1.04, 0.0, 0.01, 0.12, 0.0] 
+3 Sunil Narine | Middle-ov | score 68.9 | P10 0.765 | med 5.0 [2-24] | pn 305 pinn 29 | blocks [0.95, 0.0, -0.0, 0.11, 0.0] 
+4 Wanindu Hasaranga | Middle-ov | score 66.5 | P10 0.618 | med 8.0 [2-46] | pn 317 pinn 26 | blocks [0.73, 0.0, 0.08, 0.1, 0.0] 
+5 Eshan Malinga | Death bow | score 65.8 | P10 0.585 | med 9.0 [2-28] | pn 219 pinn 19 | blocks [0.81, -0.0, 0.05, 0.05, 0.0] 
+6 Josh Hazlewood | Powerplay | score 64.7 | P10 0.492 | med 11.0 [2-59] | pn 345 pinn 31 | blocks [0.65, 0.02, 0.05, 0.09, 0.0] 
+7 Lungi Ngidi | Death bow | score 64.5 | P10 0.497 | med 11.0 [2-48] | pn 277 pinn 22 | blocks [0.78, -0.0, 0.03, 0.03, 0.0] 
+8 Rasikh Salam | Death bow | score 63.6 | P10 0.47 | med 11.5 [3-49] | pn 134 pinn 11 | blocks [0.72, -0.0, 0.05, 0.03, 0.0] 
+9 T Natarajan | Death bow | score 63.2 | P10 0.448 | med 12.0 [3-48] | pn 362 pinn 31 | blocks [0.63, 0.01, 0.03, 0.08, 0.0] 
+10 Jason Holder | Death bow | score 62.9 | P10 0.438 | med 13.0 [3-50] | pn 541 pinn 43 | blocks [0.68, -0.0, 0.04, 0.0, 0.0] 
+11 Mustafizur Rahman | Death bow | score 61.3 | P10 0.285 | med 15.0 [4-57] | pn 448 pinn 34 | blocks [0.61, 0.01, -0.02, 0.03, 0.0] 
+12 Maheesh Theekshana | Middle-ov | score 59.1 | P10 0.242 | med 23.0 [3-79] | pn 414 pinn 34 | blocks [0.45, 0.01, 0.03, 0.06, 0.0] 
+13 Bhuvneshwar Kumar | Death bow | score 58.8 | P10 0.17 | med 23.0 [6-70] | pn 605 pinn 48 | blocks [0.43, 0.01, 0.0, 0.07, 0.0] 
+14 Kuldeep Yadav | Middle-ov | score 58.7 | P10 0.195 | med 24.0 [4-76] | pn 386 pinn 37 | blocks [0.4, 0.0, 0.03, 0.11, 0.0] 
+15 Ravindra Jadeja | Middle-ov | score 58.7 | P10 0.195 | med 24.0 [5-79] | pn 197 pinn 11 | blocks [0.36, 0.0, 0.03, 0.09, 0.0] 
+16 Matheesha Pathirana | Death bow | score 58.5 | P10 0.233 | med 25.0 [5-75] | pn 324 pinn 24 | blocks [0.45, -0.0, 0.02, 0.02, 0.0] 
+17 Ravichandran Ashwin | Middle-ov | score 58.4 | P10 0.142 | med 24.0 [5-75] | pn 288 pinn 23 | blocks [0.39, -0.0, -0.0, 0.09, 0.0] 
+18 Varun Chakravarthy | Middle-ov | score 58.3 | P10 0.165 | med 24.0 [5-77] | pn 370 pinn 32 | blocks [0.45, 0.0, -0.0, 0.04, 0.0] 
+19 Axar Patel | Middle-ov | score 58.2 | P10 0.193 | med 25.0 [5-79] | pn 529 pinn 45 | blocks [0.37, 0.0, 0.02, 0.11, 0.0] 
+20 Haris Rauf | Death bow | score 56.9 | P10 0.152 | med 28.0 [5-91] | pn 234 pinn 19 | blocks [0.37, 0.0, 0.02, 0.05, 0.0] 
+groups in top 10: {'Powerplay bowler (overs 1–6)': 1, 'Middle-overs bowler (7–15)': 2, 'Death bowler (16–20)': 7}
